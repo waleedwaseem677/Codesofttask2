@@ -1,0 +1,203 @@
+body{
+    background-color: black;
+}
+.container{
+    position: relative;
+}
+
+
+
+.main-img{
+
+    width: 100%;
+    height: 40.625rem;
+    object-fit: cover;
+}
+
+.main-img-content{
+    color: white;
+    position: absolute;
+    left: 10%;
+    bottom: 15rem;
+    margin-bottom: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-button{
+    display: inline-block;
+    margin-top: 0;
+    padding: 5px 20px;
+    margin: 0;
+    background-color: #019CC0;
+    border: 10px solid #019CC0;
+    border-radius: 25px;
+}
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container2-cont{
+    margin: 0;
+    background-color: black;
+    color:  white;
+    width: 60rem;
+    height: auto;
+}
+.container2-cont p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container2-cont h2{
+    margin-left: 0;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container3{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color:  #E5723D;
+    display: flex;
+    justify-content: center;
+}
+
+.container3-cont{
+
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+}
+h2{
+    margin-left: 10rem;
+    margin-bottom: 0;
+}
+
+
+.container4{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box1{
+
+    width: 14rem;
+    height: 18rem;
+    border: 1.,px solid black;
+    background-color: #019CC0;
+    margin: 1rem;
+}
+.box2{
+
+    width: 14rem;
+    height: 18rem;
+    border: 1px solid black;
+    background-color: #019CC0;
+    margin: 1rem;
+}
+.box3{
+
+    width: 14rem;
+    height: 18rem;
+    border: 1px solid black;
+    background-color: #019CC0;
+    margin: 1rem;
+}
+
+.sub-img{
+    position: relative;
+}
+
+.container4 img{
+    object-fit: cover;
+    width: 100%;
+    position: absolute;
+
+}
+
+.sub-button{
+    display: inline-block;
+    position: absolute;
+    margin-top: 0.5rem;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #019CC0;
+    border: 1px solid #019CC0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    left: 3%;
+}
+
+.sub-content{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 10.5rem;
+    z-index: 99999;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 0;
+}
+
+.sub-para{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    font-size: small;
+    color: white;
+}
+
+.sub-head{
+
+    margin: 5px;
+}
+
+.cotact-info{
+    background-color: white;
+    width: 100%;
+    height: 10rem;
+}
+
+.contact{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    margin-top: 1rem;
+    background-color:  #E5723D;
+    color: white;
+}
+.email{
+    margin-left: 10rem;
+}
+
+.foot{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.contact-img{
+    margin-left: 1rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+.rights{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+.myimg{
+    margin-top: 2rem;
+    object-fit: cover;
+    width: 10rem;
+    height: 10rem;
+    border: 3px solid #019CC0;
+    border-radius: 20rem;
+}
